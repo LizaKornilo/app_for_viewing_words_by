@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WordFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp">
+
+        <ImageView
+            android:id="@+id/ivWordImsge"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/ivArrowLeft"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/iconback" />
+
+        <ImageView
+            android:id="@+id/ivArrowRight"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/iconnext" />
+
+        <TextView
+            android:id="@+id/tvWordBy"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivWordImsge"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-64dp"
+            android:gravity="center"
+            android:minHeight="36dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="22sp" />
+
+        <ImageButton
+            android:id="@+id/ivSoundIcon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@color/colorMain"
+            android:layout_alignBottom="@+id/tvWordBy"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-64dp"
+            android:src="@drawable/iconsound" />
+    </RelativeLayout>
+</FrameLayout>

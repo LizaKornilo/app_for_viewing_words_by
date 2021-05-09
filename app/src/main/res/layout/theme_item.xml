@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivThemeImage"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tvThemeName"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_toLeftOf="@id/indicatorHolder"
+        android:layout_toRightOf="@+id/ivThemeImage"
+        android:gravity="center_vertical"
+        android:textSize="22sp"
+        android:textColor="@color/colorBlack"
+        android:text="Group name" />
+
+    <ImageView
+        android:id="@+id/indicatorHolder"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:foregroundGravity="center_vertical" />
+
+</RelativeLayout>
