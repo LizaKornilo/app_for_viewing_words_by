@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.cwversion3.MainActivity"
+        android:label="activity_choice"
+        tools:layout="@layout/activity_choice" />
+    <activity
+        android:id="@+id/studyActivity"
+        android:name="com.example.cwversion3.StudyActivity"
+        android:label="activity_study"
+        tools:layout="@layout/activity_study" />
+    <activity
+        android:id="@+id/wordActivity"
+        android:name="com.example.cwversion3.WordActivity"
+        android:label="activity_word"
+        tools:layout="@layout/activity_word" />
+</navigation>
